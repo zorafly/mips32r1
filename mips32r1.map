@@ -1,0 +1,10 @@
+mips1r1_v1.0 {
+       global:
+        mips1r1_new;
+	mips1r1_free;
+	mips1r1_load;
+	mips1r1_run;
+	vmemcpy;
+       local:
+        *;
+};
